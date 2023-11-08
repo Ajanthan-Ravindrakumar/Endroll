@@ -1,0 +1,29 @@
+.Home {
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+}
+.i-left{
+    display: flex;
+    position: relative;
+    font-style: italic;
+    font-size: 4rem;
+    flex: 1;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.i-right{
+    flex: 1;
+    position: relative;
+}
+
+.i-right>*{
+    position: absolute;
+    z-index: 1;
+}
+
+.i-right > img {
+    max-width: 120%;
+    max-height: 120%;
+}
